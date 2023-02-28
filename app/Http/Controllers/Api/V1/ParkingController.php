@@ -8,6 +8,10 @@ use App\Models\Parking;
 use Illuminate\Http\Request;
 use App\Services\PriceService;
 
+/**
+ * @group Parking
+ */
+
 class ParkingController extends Controller
 {
     public function start(Request $request){
